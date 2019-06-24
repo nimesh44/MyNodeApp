@@ -1,0 +1,140 @@
+body{
+	background-color:lightgreen;
+	background-image:url("73BCT626.jpg");
+	background-repeat:no-repeat;
+	background-position:left top;
+	background-attachment:fixed;
+	text-align:center;
+	font-size:100%;
+
+}
+
+
+p.name2{
+	color:white;
+	font-family:helvatica;
+	font-size:20px;
+	text-align:top;
+	margin-top:-5px;
+	background-color:blue;
+	border-bottom:3px solid red;
+	background-width:500px;
+	margin-left:295px;
+}
+h3.dv8{
+	color:blue;
+	background-color:red;
+	border:3 px solid white;
+	font-family:verdana;
+	font-size:20px;
+	border-radius:5px;
+	/*
+	margin-left:auto;
+	*/
+	margin:0px 10px 0px 295px;
+}
+div.dv1{
+
+	background-color:white;
+		margin-left:295px;
+			border-radius:5px;
+}
+p.name1{
+	color:green;
+	border:5px solid white;
+    border-radius:inherit;
+}
+div.dv2{
+	border:1px solid black;
+	/* box-sizing:border-box; */
+	max-width:700px;/* very useful for working somoothly in small window*/
+	margin-left:300px;
+	padding:20px;
+	background-color:lightblue;
+}
+div.dv3{
+	max-width:900px;/* To resize the block in small window*/
+	max-height:auto;
+	padding:20px;
+	background-color:yellow;
+	box-sizing:border-box;
+	margin-left:300px;
+	border:2px solid blue;
+	outline-style:dotted;
+	outline-color:red;
+	outline-width:5px;
+	outline-offset:0px;
+	border-radius:10px;
+}
+div.dv4{
+	max-width:62em;
+	max-height:auto;
+	padding:1em;
+	background-color:yellow;
+	box-sizing:border-box;
+	margin-left:300px;
+	border:3px solid red;
+	border-radius:10px;
+	outline-style:double;
+	outline-color:blue;
+	outline-width:5px;
+	outline-offset:5px;
+	text-align:justify;
+	text-indent:40px;/* To ident the first line of--------*/
+	letter-spacing:1px;
+	word-spacing:4px;
+	position:sticky;
+	/* line-height:1.8;  */
+}
+div.dv7{
+	border:1px solid black;
+	padding:10px;
+	width:auto;
+	height:auto;
+	background-color:lightblue;
+
+}
+h3.dv5{
+    text-transform: uppercase;
+ 	color:blue;
+	text-align:center;
+	text-shadow:4px 2px yellow;
+}
+p.dv6{
+	letter-spacing:2px;
+	text-align:justify;/*To justify the text i.e. same marging at the end of the line*/
+	text-indent:60px;
+
+}
+a:link,a:visited{
+	text-decoration:unset;
+	color:#000000;
+	font-size:20px;
+	outline-color:red;
+	outline-width:5px;
+
+	background-color:lightblue;
+}
+a:hover,a:active{
+	color:white;
+	background-color:blue;
+	text-decoration:none;
+}
+
+p.dv9{
+	color:black;
+	font-family:"New Time Roman",Times,serif;
+	font-style:italic;
+	font-size:italic;
+	/* defines the size as accordance to the viewport window*/
+	font-size:2.5vw;
+	text-align:justify;
+	margin-left:1vw;
+	word-spacing:0.5px;
+	border:0.2vw solid blue;
+	font-weight:normal;
+	outline-style:double;
+	outline-offset:0.2vw;
+	outline-color:red;
+	position:absolute;
+}

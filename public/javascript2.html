@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hello</title>
+<link  style="relationship" type="text/css" href="./css/javascript2.css">
+
+</head>
+<body>
+<! Constraint validation method   >
+<p>Enter number and click on OK button</p>
+<input id="id1" type="number" min="100" max="300" required>
+<button onclick="myFunction()">OK</button>
+
+<p id="demo"></p>
+
+<input id="id2" type="number" min="100">
+<button onclick="myFunction()">OK</button>
+
+<p id="sec1"></p>
+
+<script>
+function myFunction() {
+  var txt = "";
+  if (document.getElementById("id2").validity.rangeUnderflow) {
+    txt = "Value too small";
+  }
+  document.getElementById("sec1").innerHTML = txt;
+}
+</script>
+<script src="./javascript/Javascript2.js"></script>
+
+</body>
+</html>

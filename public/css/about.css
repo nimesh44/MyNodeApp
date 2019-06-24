@@ -1,0 +1,52 @@
+body{
+	background-color:lightgreen;
+	text-align:center;
+	font-size:100%;
+
+}
+
+
+p.name2{
+	color:white;
+	font-family:helvatica;
+	font-size:20px;
+	text-align:top;
+	margin-top:-5px;
+	background-color:blue;
+	border-bottom:3px solid red;
+	background-width:500px;
+	margin:0px 20px;
+}
+#sec1{
+	color:blue;
+	background-color:red;
+	border:3 px solid white;
+	font-family:verdana;
+	font-size:20px;
+	border-radius:5px;
+	/*
+	margin-left:auto;
+	*/
+	margin:0px 20px;
+}
+div.dv1{
+
+	background-color:white;
+		margin-left:20px;
+		margin-right:20px;
+			border-radius:5px;
+}
+p.name1{
+	color:green;
+	border:5px solid white;
+    border-radius:inherit;
+}
+div.dv2{
+	border:1px solid black;
+	/* box-sizing:border-box; */
+	max-width:1300px;/* very useful for working somoothly in small window*/
+	margin-left:20px;
+	margin-right:20px;
+	padding:20px;
+	background-color:lightblue;
+}
